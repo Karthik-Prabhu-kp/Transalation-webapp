@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Josefin+Sans:wght@500;700&family=Oswald:wght@400;700&family=Sansita+Swashed:wght@400;700&family=Yeon+Sung&display=swap');
+
+
+:root{
+    --primary-color: white;
+    --black-color: black;
+
+}
+
+html{
+    background: url(images/starwars.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+body{
+    font-family: 'Yeon Sung', cursive;
+    background-color: ;
+    
+}
+
+#output{
+    border:1px solid whitesmoke;
+    height:10vh;
+    padding:1rem;
+    width: 60%;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: auto;
+    color: white;
+    background: rgba(0, 141, 151, 0.473);
+    text-align: center;
+}
+
+#text-input{
+    height:10vh;
+    height:10vh;
+    padding: 1rem;
+    width: 60%;
+    font-size: larger;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+
+}
+
+#btn-translate{
+    display: block;
+    align-self: center;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin:auto;
+}
+
+.head {
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+    color: var(--primary-color);
+}
+
+/* .default {
+    padding:1rem;
+    font-size: larger;
+    text-align: center;\7\
+    7
+    color: var(--primary-color);
+} */
+
+.text{
+    font-size: larger;
+    padding:1rem;
+    text-align: center;
+    color: var(--primary-color);
+}
